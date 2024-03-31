@@ -4,8 +4,10 @@
 3.	Penjelasan tool htop atau nmon
 4.	buatlah BASH Script untuk instalasi nginx
 
-1. https://github.com/IqbalDV/devops20-dumbways-M_Al_Iqbal_A_N-Week2Task/tree/master/develop
-2. Text Manipulation merupakan sebuah cara memanipulasi sebuah text yang terdapat di dalam file tanpa menggunakan text editor hanya menggunakan command.
+# Buat 3 directory yang masing-masing berisi 2 file dan rapihkan sebaik mungkin!
+ https://github.com/IqbalDV/devops20-dumbways-M_Al_Iqbal_A_N-Week2Task/tree/master/develop
+# Penjelasan text manipulation beserta step by step
+   Text Manipulation merupakan sebuah cara memanipulasi sebuah text yang terdapat di dalam file tanpa menggunakan text editor hanya menggunakan command.
    Beberapa command digunakan seperti:
    cat untuk melihat isi dari sebuah file
    ![image](https://github.com/IqbalDV/devops20-dumbways-M_Al_Iqbal_A_N-Week2Task/assets/164293632/f997d076-ec3d-40c2-85d6-a92f1c5e75b0)
@@ -30,19 +32,11 @@
    Contoh:  
    ![image](https://github.com/IqbalDV/devops20-dumbways-M_Al_Iqbal_A_N-Week2Task/assets/164293632/a860e742-e4b8-4c3c-b428-8eb1891a8504)
 
- 
-3. HTOP merupakan sebuah tool didalam ubuntu server untuk melihat dan mengatur aktivitas system dan resource yang digunakan seperti memory dan CPU yang digunakan.
+# Penjelasan tool htop atau nmon
+ HTOP merupakan sebuah tool didalam ubuntu server untuk melihat dan mengatur aktivitas system dan resource yang digunakan seperti memory dan CPU yang digunakan.
    Interface HTOP
    ![image](https://github.com/IqbalDV/devops20-dumbways-M_Al_Iqbal_A_N-Week2Task/assets/164293632/a1f5e08c-66ea-4c90-8f62-bdfcd2165277)
    NMON merupakan alternatif dari HTOP, tetapi NMON menampilkan beberapa informasi tambahan seperti disk usage.
-4. #!/bin/bash
-# Update package index
-sudo apt update
-# Install Nginx
-sudo apt install -y nginx
-# Check if the installation was successful
-if [ $? -eq 0]; then
-echo "the package was succesfully installed."
-else
-echo "the package installation failed"
-fi
+# buatlah BASH Script untuk instalasi nginx
+![image](https://github.com/IqbalDV/devops20-dumbways-M_Al_Iqbal_A_N-Week2Task/assets/164293632/7d5cfa4c-b3f8-4600-9336-3cf6233e15b1)
+
