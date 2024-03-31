@@ -35,4 +35,14 @@
    Interface HTOP
    ![image](https://github.com/IqbalDV/devops20-dumbways-M_Al_Iqbal_A_N-Week2Task/assets/164293632/a1f5e08c-66ea-4c90-8f62-bdfcd2165277)
    NMON merupakan alternatif dari HTOP, tetapi NMON menampilkan beberapa informasi tambahan seperti disk usage.
-4. 
+4. #!/bin/bash
+# Update package index
+sudo apt update
+# Install Nginx
+sudo apt install -y nginx
+# Check if the installation was successful
+if [ $? -eq 0]; then
+echo "the package was succesfully installed."
+else
+echo "the package installation failed"
+fi
